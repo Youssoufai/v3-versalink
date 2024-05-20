@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      content: {
+        empty: '" "'
+      },
+      colors: {
+        'orange': '#F18365'
+      },
       fontFamily: {
         'quicksand': ['Quicksand', 'sans-serif']
       }

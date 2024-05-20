@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#bg {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.395), rgba(0, 0, 0, 0.354)), url('./assets/people.avif');
+    background-position: center;
+    background-size: cover;
+}

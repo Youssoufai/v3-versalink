@@ -8,8 +8,13 @@ import Team from './components/Team'
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <div
+        id='bg'
+        className='text-orange'
+      >
+        <Navbar />
+        <Hero />
+      </div>
       <Intro />
       <Team />
     </>
