@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Team from './components/Team'
+import Testimonials from './components/Testimonials'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <Intro />
       <Team />
+      <Testimonials />
     </>
   )
 }

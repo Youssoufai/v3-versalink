@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <header
-            className={`flex justify-between items-center p-9 sticky top-0 ${scrolled ? 'bg-orange text-white' : ''}`}
+            className={`flex justify-between items-center p-9 sticky top-0 duration-75 ease-linear delay-100 ${scrolled ? 'bg-orange text-white' : ''}`}
         >
             <div>
                 <h1>VERSALINK</h1>

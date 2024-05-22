@@ -29,10 +29,14 @@ const Team = () => {
                             className='space-y-4'
                         >
                             <h1
-                                className='text-3xl'
+                                className='text-4xl text-gold font-semibold'
                             >Alamin Abbas</h1>
-                            <h3>Founder & CEO</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
+                            <h3
+                                className='text-2xl'
+                            >Founder & CEO</h3>
+                            <p
+                                className='text-light'
+                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
                         </div>
                     </div>
                     <div
@@ -49,10 +53,16 @@ const Team = () => {
                             className='space-y-4'
                         >
                             <h1
-                                className='text-3xl'
+                                className='text-4xl text-gold font-semibold'
                             >Alamin Abbas</h1>
-                            <h3>CTO</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
+                            <h3
+                                className='text-2xl'
+                            >CTO</h3>
+                            <p
+                                className='text-light'
+                            >
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
                         </div>
                     </div>
                     <div
@@ -69,10 +79,14 @@ const Team = () => {
                             className='space-y-4'
                         >
                             <h1
-                                className=' text-3xl'
+                                className=' text-4xl text-gold font-semibold'
                             >Alamin Abbas</h1>
-                            <h3>COO</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
+                            <h3
+                                className='text-2xl'
+                            >COO</h3>
+                            <p
+                                className='text-light'
+                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur voluptatem, similique minus incidunt quisquam labore natus expedita. Deserunt impedit eius doloribus ab.</p>
                         </div>
                     </div>
                 </section >
@@ -80,5 +94,4 @@ const Team = () => {
         </>
     )
 }
-
 export default Team

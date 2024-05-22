@@ -15,16 +15,22 @@ export default {
         '2xl': '1536px',
         '3xl': '1920px',
       },
+      backgroundImage: {
+        'testimonials': 'url("./src/assets/bg.jpg")'
+      },
       content: {
         empty: '" "'
       },
       colors: {
         'orange': '#F18365',
         'lightOrange': '#FAD9D0',
-        'gray': '#282B37'
+        'gray': '#282B37',
+        'light': '#C8C7C4',
+        'gold': '#128bb0',
+        'lightGray': '#D3D3D3'
       },
       fontFamily: {
-        'quicksand': ['Quicksand', 'sans-serif']
+        'poetsen': ["Poetsen One", "sans-serif"]
       }
     },
   },
