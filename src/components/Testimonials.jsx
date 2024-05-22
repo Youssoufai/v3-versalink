@@ -4,7 +4,7 @@ const Testimonials = () => {
     return (
         <>
             <section
-                className=' h-screen bg-amber-700'
+                className=' h-screen bg-darkbg'
             >
 
 

@@ -27,10 +27,11 @@ export default {
         'gray': '#282B37',
         'light': '#C8C7C4',
         'gold': '#128bb0',
-        'lightGray': '#D3D3D3'
+        'lightGray': '#D3D3D3',
+        'darkbg': '#131A1D'
       },
       fontFamily: {
-        'poetsen': ["Poetsen One", "sans-serif"]
+        'franklin': ["Libre Franklin", "sans-serif"]
       }
     },
   },
