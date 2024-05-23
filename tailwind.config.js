@@ -28,7 +28,9 @@ export default {
         'light': '#C8C7C4',
         'gold': '#128bb0',
         'lightGray': '#D3D3D3',
-        'darkbg': '#131A1D'
+        'darkbg': '#131A1D',
+        'lightBlue': '#42C6FF',
+        'purple': '#7A16EE'
       },
       fontFamily: {
         'franklin': ["Libre Franklin", "sans-serif"]
