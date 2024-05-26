@@ -12,10 +12,10 @@ const Testimonials = () => {
                     className=' text-white text-center text-4xl'
                 >Our Services</h1>
                 <div
-                    className='flex items-center justify-between h-full'
+                    className='grid grid-cols-3 place-content-center items-center h-full'
                 >
                     <div
-                        className='text-center space-y-4 p-6 w-3/12 shadow-slate-600 shadow-sm rounded-lg'
+                        className='text-center space-y-12 p-6 shadow-sm rounded-lg flex flex-col justify-center items-center'
                     >
                         <img src={awareness} alt=""
                             style={{
@@ -29,9 +29,12 @@ const Testimonials = () => {
                         <p
                             className='text-orange'
                         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla blanditiis repellat iure dolor libero minima harum modi exercitationem, asperiores quaerat!</p>
+                        <button
+                            className='py-3 px-8 border-white-600 border-solid border bg-orange text-white transition-all hover:border border-orange'
+                        >Read More</button>
                     </div>
                     <div
-                        className='text-center space-y-4 p-6 w-3/12 shadow-slate-600 shadow-sm rounded-lg'
+                        className='text-center space-y-12 p-6 shadow-sm rounded-lg flex flex-col justify-center items-center'
                     >
                         <img src={awareness} alt=""
                             style={{
@@ -45,9 +48,12 @@ const Testimonials = () => {
                         <p
                             className='text-orange'
                         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla blanditiis repellat iure dolor libero minima harum modi exercitationem, asperiores quaerat!</p>
+                        <button
+                            className='py-3 px-8 border-white-600 border-solid border bg-orange text-white transition-all hover:border border-orange'
+                        >Read More</button>
                     </div>
                     <div
-                        className='text-center space-y-4 p-6 w-3/12 shadow-slate-600 shadow- rounded-lg'
+                        className='text-center space-y-12 p-6 shadow-sm rounded-lg flex flex-col justify-center items-center'
                     >
                         <img src={awareness} alt=""
                             style={{
@@ -61,6 +67,9 @@ const Testimonials = () => {
                         <p
                             className='text-orange'
                         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla blanditiis repellat iure dolor libero minima harum modi exercitationem, asperiores quaerat!</p>
+                        <button
+                            className='py-3 px-8 border-white-600 border-solid border bg-orange text-white transition-all hover:border border-orange'
+                        >Read More</button>
                     </div>
                 </div>
             </section>

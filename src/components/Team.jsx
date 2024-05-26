@@ -6,8 +6,8 @@ const Team = () => {
     return (
         <>
             <section
-                className='h-screen p-9 bg-gray text-white space-y-4'
-                id='team-h'
+                className='h-screen p-9 bg-gray text-white space-y-10'
+
             >
                 <div
                     className=' space-y-6 text-center'
@@ -17,7 +17,7 @@ const Team = () => {
                     >Our Team</h1>
                 </div>
                 <div
-                    className='space-y-8'
+                    className='space-y-20 flex flex-col justify-between'
                 >
                     <div
                         className='w-full flex flex-col items-center justify-center gap-3'
@@ -42,7 +42,7 @@ const Team = () => {
                         className='flex justify-evenly text-center'
                     >
                         <div
-                            className='space-y-2 bg-gold p-4 rounded-lg'
+                            className='space-y-2 p-4 rounded-lg'
                         >
                             <img src={team2} alt=""
                                 style={{
@@ -107,6 +107,7 @@ const Team = () => {
                     </div>
                 </div>
             </section >
+
         </>
     )
 }

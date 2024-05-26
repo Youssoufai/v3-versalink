@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 const Hero = () => {
     return (
         <>
@@ -16,9 +16,12 @@ const Hero = () => {
                         className=' text-lightOrange text-lg'
                     >Hello and welcome! We're delighted to have you here. Whether you're new to our community or already "a part of the furniture," we hope you'll find everything you need.</p>
                     <div>
-                        <button
+                        <motion.button
+                            whileHover={{
+                                scale: 1.05
+                            }}
                             className='py-3 px-8 border-white-600 border-solid border hover:bg-orange hover:text-white transition-all hover:border hover:border-orange'
-                        >Read More</button>
+                        >Read More</motion.button>
                     </div>
                 </section>
             </section>

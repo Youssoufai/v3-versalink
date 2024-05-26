@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Team from './components/Team'
 import Testimonials from './components/Testimonials'
-
+import Events from './components/Events'
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
       <Intro />
       <Team />
       <Testimonials />
+      <Events />
     </>
   )
 }
