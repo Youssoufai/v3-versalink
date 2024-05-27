@@ -25,3 +25,23 @@
 .h-screen {
     height: 150vh;
 }
+
+@media screen and (max-width:800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #menu {
+        background: green;
+        height: 3px;
+    }
+}

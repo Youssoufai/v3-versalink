@@ -3,6 +3,11 @@ import '../index.css';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleClick = () => {
+        setMenuOpen(!menuOpen);
+    }
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,28 +26,26 @@ const Navbar = () => {
 
     return (
         <header
-            className={`flex justify-between items-center p-9 sticky top-0 duration-75 ease-linear delay-100 ${scrolled ? 'bg-orange text-white' : ''}`}
+            className={`md:flex md:flex-row md:justify-between md:items-center md:w-full p-9 sticky top-0 duration-75 ease-linear delay-100 ${scrolled ? 'bg-orange text-white' : ''} `}
         >
             <div>
-                <h1>VERSALINK</h1>
+                <h1 className='text-5xl'>VERSALINK</h1>
             </div>
             <ul
-                className='flex items-center gap-14'
+                className={`md:flex md:items-center gap-8 ${menuOpen ? 'visible' : 'hidden'} md:visible`}
+                id='header'
             >
-                <li
-                    className='cursor-pointer hover:after:content-empty hover:after:h-1 hover:after:bg-white hover:after:w-10 after:absolute relative transition-all flex after:bottom-0'
-                >VDI</li>
-                <li
-                    className='cursor-pointer hover:after:content-empty hover:after:h-1 hover:after:bg-white hover:after:w-10 after:absolute relative transition-all flex after:bottom-0'
-                >Post</li>
-                <li
-                    className='cursor-pointer hover:after:content-empty hover:after:h-1 hover:after:bg-white hover:after:w-3/4 after:absolute relative transition-all flex after:bottom-0'
-                >Clothing Brand</li>
+                <li>VDI</li>
+                <li>Post</li>
+                <li>Clothing Brand</li>
             </ul>
             <div>
-                <button
-                    className='text-white'
-                >Book Now</button>
+                <button className='p-4 bg-black rounded-lg text-orange' onClick={handleClick}>
+                    Book Now
+                </button>
+            </div>
+            <div id="menu" onClick={handleClick} className="md:hidden">
+                <ion-icon name="menu-outline"></ion-icon>
             </div>
         </header>
     );

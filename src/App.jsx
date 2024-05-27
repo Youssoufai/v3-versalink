@@ -6,20 +6,29 @@ import Intro from './components/Intro'
 import Team from './components/Team'
 import Testimonials from './components/Testimonials'
 import Events from './components/Events'
+import { motion } from 'framer-motion'
 function App() {
   return (
     <>
-      <div
-        id='bg'
-        className='text-orange'
+      <motion.div
+        initial={{
+          opacity: .5
+        }}
+        whileInView={{
+          opacity: 1
+        }}
       >
-        <Navbar />
-        <Hero />
-      </div>
-      <Intro />
-      <Team />
-      <Testimonials />
-      <Events />
+        <div
+          id='bg'
+          className='text-orange'
+        >
+          <Navbar />
+          <Hero />
+        </div>
+        <Intro />
+        <Team />
+        <Testimonials />
+      </motion.div>
     </>
   )
 }
