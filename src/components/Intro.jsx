@@ -13,7 +13,7 @@ const Intro = () => {
                 <div
                     className='space-y-4'
                 >
-                    <h1 className='text-4xl text-center w-full'>About Us</h1>
+                    <h1 className='text-4xl text-center w-full text-orange'>About Us</h1>
                     <p
                         className=' text-center'
                     >
@@ -26,7 +26,7 @@ const Intro = () => {
                     <img src={about} alt=""
                         style={{
                             height: '500px',
-                            width: '60%'
+                            width: '70%'
 
                         }}
                         className='mx-auto rounded'

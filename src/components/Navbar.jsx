@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../index.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -35,11 +36,14 @@ const Navbar = () => {
                 className={`md:flex md:items-center gap-8 ${menuOpen ? 'visible' : 'hidden'} md:visible`}
                 id='header'
             >
-                <li>VDI</li>
-                <li>Post</li>
-                <li>Clothing Brand</li>
+                <Link to="/vdi">VDI</Link>
+                <Link to="/posts">Posts</Link>
+                <Link to="/ecom">Clothing Brandnp</Link>
+
             </ul>
-            <div>
+            <div
+                className='items-end'
+            >
                 <button className='p-4 bg-black rounded-lg text-orange' onClick={handleClick}>
                     Book Now
                 </button>

@@ -1,14 +1,13 @@
 import React from 'react'
 
-const Testimonials = () => {
+const Reviews = () => {
     return (
         <>
-
             <section>
-                <h1>What they say about us</h1>
+                <h1>Events</h1>
             </section>
         </>
     )
 }
 
-export default Testimonials
+export default Reviews

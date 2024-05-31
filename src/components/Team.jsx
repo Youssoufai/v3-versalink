@@ -13,7 +13,7 @@ const Team = () => {
                     className=' space-y-6 text-center'
                 >
                     <h1
-                        className='text-5xl'
+                        className='text-5xl text-lightBlue'
                     >Our Team</h1>
                 </div>
                 <div
@@ -42,7 +42,7 @@ const Team = () => {
                         className='flex justify-evenly text-center'
                     >
                         <div
-                            className='space-y-2 p-4 rounded-lg'
+                            className='space-y-2  rounded-lg'
                         >
                             <img src={team2} alt=""
                                 style={{

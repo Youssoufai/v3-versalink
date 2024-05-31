@@ -4,20 +4,14 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Team from './components/Team'
-import Testimonials from './components/Testimonials'
+import Services from './components/Services'
 import Events from './components/Events'
 import { motion } from 'framer-motion'
+import Footer from './Footer'
 function App() {
   return (
     <>
-      <motion.div
-        initial={{
-          opacity: .5
-        }}
-        whileInView={{
-          opacity: 1
-        }}
-      >
+      <motion.div>
         <div
           id='bg'
           className='text-orange'
@@ -27,7 +21,9 @@ function App() {
         </div>
         <Intro />
         <Team />
-        <Testimonials />
+        <Services />
+        <Events />
+        <Footer />
       </motion.div>
     </>
   )

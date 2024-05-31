@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      height: {
+        'view': '100%'
+      },
       screens: {
         'xs': '480px',
         'sm': '640px',
